@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VnE-GO</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <a class="home-btn" href="/" aria-label="Trang chu">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                    <path d="M3 11.5 12 4l9 7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.5 10.5V20h13v-9.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                    <path d="M10 20v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <nav class="mainnav">
+                <ul>
+                    <li><a class="brand" href="/">VnE-GO</a></li>
+                    <li><a href="#">Thời sự</a></li>
+                    <li><a href="#">Thế giới</a></li>
+                    <li><a href="#">Kinh doanh</a></li>
+                    <li><a href="#">Khoa học công nghệ</a></li>
+                    <li><a href="#">Góc nhìn</a></li>
+                    <li><a href="#">Spotlight</a></li>
+                    <li><a href="#">Bất động sản</a></li>
+                    <li><a href="#">Sức khỏe</a></li>
+                    <li><a href="#">Giải trí</a></li>
+                    <li><a href="#">Thể thao</a></li>
+                    <li><a href="#">Pháp luật</a></li>
+                    <li><a href="#">Giáo dục</a></li>
+                    <li><a href="#">Đời sống</a></li>
+                    <li><a href="#">Du lịch</a></li>
+                    <li><a href="#">Số hóa</a></li>
+                    <li><a href="#">Xe</a></li>
+                    <li><a href="#">Ý kiến</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>
